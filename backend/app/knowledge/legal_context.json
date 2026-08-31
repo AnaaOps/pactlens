@@ -1,0 +1,77 @@
+{
+  "deposit_refund_extended": {
+    "title": "Deposit refund timelines",
+    "note": "Related: Model Tenancy Act, 2021 — security deposit caps and refund expectations (typically timely return after deductions). Informational reference only.",
+    "refs": ["Model Tenancy Act, 2021 (deposit provisions)"]
+  },
+  "notice_period_extended": {
+    "title": "Notice / termination periods",
+    "note": "Related: Model Tenancy Act provisions on notice for termination of tenancy. Longer notice can constrain exit flexibility. Informational reference only.",
+    "refs": ["Model Tenancy Act, 2021 (termination/notice)"]
+  },
+  "auto_renewal_introduced": {
+    "title": "Auto-renewal",
+    "note": "Related: Consumer Protection Act principles on unfair contract terms; auto-renewal should be transparent with a workable opt-out. Informational reference only.",
+    "refs": ["Consumer Protection Act, 2019 (unfair terms — general principles)"]
+  },
+  "auto_renewal_notice_extended": {
+    "title": "Auto-renewal cancellation window",
+    "note": "Related: Unfair-term scrutiny when cancellation windows become impractical. Informational reference only.",
+    "refs": ["Consumer Protection Act, 2019"]
+  },
+  "payment_commission_reduced": {
+    "title": "Payment / commission cuts",
+    "note": "Related: Platform worker terms — sudden commission cuts may engage contract and consumer-fairness questions. Informational reference only.",
+    "refs": ["Indian Contract Act, 1872 (consideration/variation)"]
+  },
+  "fee_increased": {
+    "title": "Fee increases",
+    "note": "Related: Transparent fee disclosure expectations under consumer protection norms. Informational reference only.",
+    "refs": ["Consumer Protection Act, 2019"]
+  },
+  "rent_increased": {
+    "title": "Rent increases",
+    "note": "Related: Model Tenancy Act guidance on rent revision mechanisms agreed in the agreement. Informational reference only.",
+    "refs": ["Model Tenancy Act, 2021 (rent revision)"]
+  },
+  "liability_shifted": {
+    "title": "Liability / indemnity shifts",
+    "note": "Related: Over-broad indemnity and liability waivers can be contested as unfair in some consumer contexts. Informational reference only.",
+    "refs": ["Indian Contract Act, 1872", "Consumer Protection Act, 2019"]
+  },
+  "maintenance_shifted": {
+    "title": "Maintenance obligations",
+    "note": "Related: Model Tenancy Act allocates structural vs day-to-day repair duties between landlord and tenant. Informational reference only.",
+    "refs": ["Model Tenancy Act, 2021 (repair obligations)"]
+  },
+  "arbitration_introduced": {
+    "title": "Arbitration clauses",
+    "note": "Related: Arbitration & Conciliation Act, 1996 — arbitration can limit ordinary civil-court routes. Informational reference only.",
+    "refs": ["Arbitration and Conciliation Act, 1996"]
+  },
+  "unilateral_amendment": {
+    "title": "Unilateral amendments",
+    "note": "Related: One-sided amendment rights may raise unfair-term concerns for consumers/workers. Informational reference only.",
+    "refs": ["Consumer Protection Act, 2019"]
+  },
+  "data_rights_expanded": {
+    "title": "Personal data use",
+    "note": "Related: Digital Personal Data Protection Act, 2023 — purpose limitation and consent principles. Informational reference only.",
+    "refs": ["Digital Personal Data Protection Act, 2023"]
+  },
+  "protection_removed": {
+    "title": "Removed protections",
+    "note": "Related: Removal of refund/grievance protections can worsen bargaining position — compare against the signed baseline. Informational reference only.",
+    "refs": ["Indian Contract Act, 1872"]
+  },
+  "clause_removed": {
+    "title": "Removed clause",
+    "note": "Related: Confirm whether the removed clause was a negotiated protection. Informational reference only.",
+    "refs": ["Indian Contract Act, 1872"]
+  },
+  "material_wording_change": {
+    "title": "Wording change",
+    "note": "Related: Even small wording shifts can alter obligations — compare side by side. Informational reference only.",
+    "refs": ["General contract interpretation principles"]
+  }
+}
