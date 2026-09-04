@@ -1,0 +1,309 @@
+{
+  "schema": "pactlens.legal_aid_handoff.v2",
+  "intake_docket_id": "DOCKET-A8875CD9",
+  "generated_at": "2026-09-04T21:24:35.749780+00:00",
+  "case_type": "Rental Dispute — Statutory Breach & Unfair Terms",
+  "disclaimer": "Evidentiary case brief prepared by PactLens for Legal Aid / Tenant Rights Clinics. Includes SHA-256 verification hashes.",
+  "contract": {
+    "name": "RENTAL Agreement Comparison",
+    "type": "rental",
+    "scan_id": "PL-0BDB7D3053C8",
+    "counterparty": "Sharma Properties Pvt Ltd"
+  },
+  "evidence": {
+    "certificate_id": "CERT-BSA63-300A5D54",
+    "old_sha256": "b6d23469523d5c222fae98231ed00ed7832c9a0090dd1c8037947339dd03210a",
+    "new_sha256": "05f6f313756478585ed1fdeb9448abad18b5699a88339878e526f94182a36c4d",
+    "combined_sha256": "e12d4ccba95b4cdceef70e9790edeed50b6d0fd8599180c692eef5acbcb50c69",
+    "admissibility": "Section 63 BSA / Sec 65B IEA Certified"
+  },
+  "risk_counts": {
+    "High": 5,
+    "Medium": 5,
+    "Low": 5
+  },
+  "statutory_violations": [
+    {
+      "clause": "Liability shifted onto you",
+      "broken_statute": "Indian Contract Act, 1872 — Section 124, 125 & Section 23",
+      "statutory_reference": "Indian Contract Act, 1872, Section 23: An agreement the terms of which are opposed to public policy or force one party to indemnify another against their own negligence is void ab initio.",
+      "violation_type": "Unconscionable Indemnity Clause / Void Under Sec 23",
+      "severity": "High",
+      "impact": "increases your personal financial exposure (amount not specified in clause)",
+      "remedy": "Re: Objection to Unilateral Indemnity Clause\n\nDear Sir/Madam,\n\nClause 8 requires me to indemnify and hold harmless the counterparty from all losses, claims, and injuries. Under settled Indian jurisprudence (Central Inland Water Transport Corp principle) and Section 23 of the Indian Contract Act, 1872, blanket exculpatory clauses excluding one party's liability for structural defects or negligence are void as opposed to public policy.\n\nPlease amend the clause to state that each party remains liable for its own acts, omissions, or gross negligence.\n\nRegards,\n[Your Name]",
+      "forum": "Civil Court / District Consumer Disputes Redressal Commission"
+    },
+    {
+      "clause": "Protective clause removed",
+      "broken_statute": "Indian Contract Act, 1872 — Section 23 & Model Tenancy Act, 2021",
+      "statutory_reference": "Removal of protective covenants (e.g. landlord repair duties, cooling-off windows, grievance channels) creates severe contractual asymmetry.",
+      "violation_type": "Removal of Baseline Protection",
+      "severity": "High",
+      "impact": "removes a safeguard you previously had",
+      "remedy": "Re: Restoration of Excised Protective Clause\n\nDear Landlord/Partner,\n\nI note that the protective provision from our signed agreement has been deleted in this revision. Please restore this protection before signing.\n\nSincerely,\n[Your Name]",
+      "forum": "Rent Authority / Consumer Commission"
+    },
+    {
+      "clause": "Protective clause removed",
+      "broken_statute": "Indian Contract Act, 1872 — Section 23 & Model Tenancy Act, 2021",
+      "statutory_reference": "Removal of protective covenants (e.g. landlord repair duties, cooling-off windows, grievance channels) creates severe contractual asymmetry.",
+      "violation_type": "Removal of Baseline Protection",
+      "severity": "High",
+      "impact": "removes a safeguard you previously had",
+      "remedy": "Re: Restoration of Excised Protective Clause\n\nDear Landlord/Partner,\n\nI note that the protective provision from our signed agreement has been deleted in this revision. Please restore this protection before signing.\n\nSincerely,\n[Your Name]",
+      "forum": "Rent Authority / Consumer Commission"
+    },
+    {
+      "clause": "Protective clause removed",
+      "broken_statute": "Indian Contract Act, 1872 — Section 23 & Model Tenancy Act, 2021",
+      "statutory_reference": "Removal of protective covenants (e.g. landlord repair duties, cooling-off windows, grievance channels) creates severe contractual asymmetry.",
+      "violation_type": "Removal of Baseline Protection",
+      "severity": "High",
+      "impact": "removes a safeguard you previously had",
+      "remedy": "Re: Restoration of Excised Protective Clause\n\nDear Landlord/Partner,\n\nI note that the protective provision from our signed agreement has been deleted in this revision. Please restore this protection before signing.\n\nSincerely,\n[Your Name]",
+      "forum": "Rent Authority / Consumer Commission"
+    },
+    {
+      "clause": "Unilateral amendment rights introduced",
+      "broken_statute": "Indian Contract Act, 1872 — Section 62 & Consumer Protection Act, 2019 — Section 2(46)(vi)",
+      "statutory_reference": "Indian Contract Act, 1872, Section 62 requires mutual consensus ad idem for novation or variation of contract. Consumer Protection Act, 2019, Section 2(46)(vi) declares unilateral contract modifications as Unfair Contracts.",
+      "violation_type": "Unfair Contract Term / Void Variation Clause",
+      "severity": "High",
+      "impact": "terms may change without your affirmative consent",
+      "remedy": "Re: Rejection of Unilateral Modification Clause\n\nDear Sir/Madam,\n\nClause 12 reserves the right to amend terms at sole discretion via email. Under Section 62 of the Indian Contract Act, 1872 and Section 2(46) of the Consumer Protection Act, 2019, contract variations without bilateral consent are void.\n\nPlease replace this with: 'No amendment or variation of this Agreement shall be valid unless agreed to in writing and signed by both parties.'\n\nSincerely,\n[Your Name]",
+      "forum": "District Consumer Commission / Rent Authority"
+    },
+    {
+      "clause": "Clause removed",
+      "broken_statute": "Indian Contract Act, 1872 — Section 62",
+      "statutory_reference": "Indian Contract Act, 1872, Section 62: Any deletion of mutually agreed terms requires bilateral consensus.",
+      "violation_type": "Unilateral Deletion",
+      "severity": "Medium",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please clarify why the clause present in our initial contract was omitted in this version.",
+      "forum": "Rent Authority / Civil Court"
+    },
+    {
+      "clause": "Clause removed",
+      "broken_statute": "Indian Contract Act, 1872 — Section 62",
+      "statutory_reference": "Indian Contract Act, 1872, Section 62: Any deletion of mutually agreed terms requires bilateral consensus.",
+      "violation_type": "Unilateral Deletion",
+      "severity": "Medium",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please clarify why the clause present in our initial contract was omitted in this version.",
+      "forum": "Rent Authority / Civil Court"
+    },
+    {
+      "clause": "Clause removed",
+      "broken_statute": "Indian Contract Act, 1872 — Section 62",
+      "statutory_reference": "Indian Contract Act, 1872, Section 62: Any deletion of mutually agreed terms requires bilateral consensus.",
+      "violation_type": "Unilateral Deletion",
+      "severity": "Medium",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please clarify why the clause present in our initial contract was omitted in this version.",
+      "forum": "Rent Authority / Civil Court"
+    },
+    {
+      "clause": "Clause removed",
+      "broken_statute": "Indian Contract Act, 1872 — Section 62",
+      "statutory_reference": "Indian Contract Act, 1872, Section 62: Any deletion of mutually agreed terms requires bilateral consensus.",
+      "violation_type": "Unilateral Deletion",
+      "severity": "Medium",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please clarify why the clause present in our initial contract was omitted in this version.",
+      "forum": "Rent Authority / Civil Court"
+    },
+    {
+      "clause": "Clause removed",
+      "broken_statute": "Indian Contract Act, 1872 — Section 62",
+      "statutory_reference": "Indian Contract Act, 1872, Section 62: Any deletion of mutually agreed terms requires bilateral consensus.",
+      "violation_type": "Unilateral Deletion",
+      "severity": "Medium",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please clarify why the clause present in our initial contract was omitted in this version.",
+      "forum": "Rent Authority / Civil Court"
+    },
+    {
+      "clause": "Material wording change",
+      "broken_statute": "Indian Contract Act, 1872 — Section 10",
+      "statutory_reference": "Indian Contract Act, 1872, Section 10: All agreements are contracts if made by free consent. Wording shifts altering rights require clear understanding.",
+      "violation_type": "Substantive Variation",
+      "severity": "Low",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please confirm the operational intent behind the revised phrasing in this clause.",
+      "forum": "Informational review"
+    },
+    {
+      "clause": "Material wording change",
+      "broken_statute": "Indian Contract Act, 1872 — Section 10",
+      "statutory_reference": "Indian Contract Act, 1872, Section 10: All agreements are contracts if made by free consent. Wording shifts altering rights require clear understanding.",
+      "violation_type": "Substantive Variation",
+      "severity": "Low",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please confirm the operational intent behind the revised phrasing in this clause.",
+      "forum": "Informational review"
+    },
+    {
+      "clause": "Material wording change",
+      "broken_statute": "Indian Contract Act, 1872 — Section 10",
+      "statutory_reference": "Indian Contract Act, 1872, Section 10: All agreements are contracts if made by free consent. Wording shifts altering rights require clear understanding.",
+      "violation_type": "Substantive Variation",
+      "severity": "Low",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please confirm the operational intent behind the revised phrasing in this clause.",
+      "forum": "Informational review"
+    },
+    {
+      "clause": "Material wording change",
+      "broken_statute": "Indian Contract Act, 1872 — Section 10",
+      "statutory_reference": "Indian Contract Act, 1872, Section 10: All agreements are contracts if made by free consent. Wording shifts altering rights require clear understanding.",
+      "violation_type": "Substantive Variation",
+      "severity": "Low",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please confirm the operational intent behind the revised phrasing in this clause.",
+      "forum": "Informational review"
+    },
+    {
+      "clause": "Material wording change",
+      "broken_statute": "Indian Contract Act, 1872 — Section 10",
+      "statutory_reference": "Indian Contract Act, 1872, Section 10: All agreements are contracts if made by free consent. Wording shifts altering rights require clear understanding.",
+      "violation_type": "Substantive Variation",
+      "severity": "Low",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please confirm the operational intent behind the revised phrasing in this clause.",
+      "forum": "Informational review"
+    }
+  ],
+  "executive_summary": "Automated legal scan of contract against counterparty 'Sharma Properties Pvt Ltd' identified 15 statutory violations under Model Tenancy Act 2021, Consumer Protection Act 2019, and Indian Contract Act 1872. Recommended immediate relief involves filing a grievance before the jurisdictional Rent Authority / Consumer Commission.",
+  "recommended_forum": "Rent Authority under Section 30 of Model Tenancy Act, 2021",
+  "intake_checklist": [
+    "Identity Proof of Claimant / Tenant",
+    "Signed Baseline Agreement Copy",
+    "PactLens Cryptographic Evidentiary Certificate (Sec 63 BSA)",
+    "Bank Transaction Records of Security Deposit / Rent / Commission",
+    "Written Counter-Notice served to counterparty"
+  ],
+  "legal_context": [
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    }
+  ],
+  "legal_knowledge_base_version": "2026.09.01"
+}
