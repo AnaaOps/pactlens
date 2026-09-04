@@ -1,0 +1,125 @@
+{
+  "version": "2026.09.01",
+  "entries": [
+    {
+      "id": "mta-2021-deposit-sec-11",
+      "category": "deposit",
+      "act": "Model Tenancy Act, 2021",
+      "provision": "Section 11(1) & Section 11(2)",
+      "summary": "Security deposit is capped at 2 months' rent for residential premises and 6 months' rent for non-residential premises. The deposit is to be refunded to the tenant upon handing over vacant possession after agreed and lawful deductions.",
+      "why_it_matters": "This change affects the timing or amount of your security deposit. The applicable tenancy framework may place limits on deposits or provide rules concerning refund. Check the law applicable in your state before accepting the revised term.",
+      "source_url": "https://mohua.gov.in/upload/uploadfiles/files/Model_Tenancy_Act_English.pdf",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "The Model Tenancy Act is a central model framework and applicability depends on state adoption.",
+      "status": "verified"
+    },
+    {
+      "id": "mta-2021-rent-revision-sec-9-10",
+      "category": "notice",
+      "act": "Model Tenancy Act, 2021",
+      "provision": "Section 9 & Section 10",
+      "summary": "Rent revision is governed by the terms agreed in the tenancy agreement. Notice of revision must be given at least 3 months prior to the date on which revised rent becomes payable under the model framework.",
+      "why_it_matters": "Contractual notice terms and rent revision expectations can depend on the applicable tenancy regime. Verify the required notice period under your state's rental rules.",
+      "source_url": "https://mohua.gov.in/upload/uploadfiles/files/Model_Tenancy_Act_English.pdf",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "The Model Tenancy Act is a central model framework and applicability depends on state adoption.",
+      "status": "verified"
+    },
+    {
+      "id": "mta-2021-dispute-sec-30-38",
+      "category": "arbitration",
+      "act": "Model Tenancy Act, 2021",
+      "provision": "Section 30 & Section 38",
+      "summary": "The Model Tenancy Act establishes a three-tier statutory adjudicatory mechanism comprising the Rent Authority, Rent Court, and Rent Tribunal for resolution of tenancy disputes, impacting civil court jurisdiction in adopting states.",
+      "why_it_matters": "The dispute-resolution clause should be checked against the tenancy framework applicable in your state. Statutory dispute bodies may take precedence in adopting jurisdictions.",
+      "source_url": "https://mohua.gov.in/upload/uploadfiles/files/Model_Tenancy_Act_English.pdf",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Jurisdiction of Rent Authorities and civil courts depends on whether your state has enacted legislation based on the Model Tenancy Act.",
+      "status": "verified"
+    },
+    {
+      "id": "ica-1872-section-23-liability",
+      "category": "liability",
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "why_it_matters": "This clause may raise questions under general contract-law principles, including Section 23, depending on the facts. Contractual terms that disproportionately shift risk or exculpate one party from statutory negligence may raise enforceability questions.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India.",
+      "status": "verified"
+    },
+    {
+      "id": "cpa-2019-unfair-contract-sec-2-46",
+      "category": "consumer",
+      "act": "Consumer Protection Act, 2019",
+      "provision": "Section 2(46)",
+      "summary": "Defines an 'unfair contract' as a contract between a manufacturer or trader or service provider and a consumer, having terms which cause significant change in consumer rights, including unilateral termination, disproportionate penalties, or unreasonable conditions.",
+      "why_it_matters": "Consumer-law protections may apply to certain consumer-facing agreements. Applicability depends on the transaction, commercial context, and relationship between the parties.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/15256",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central legislation applicable pan-India where the relationship satisfies consumer definition under Section 2(7).",
+      "status": "verified"
+    },
+    {
+      "id": "css-2020-gig-worker-sec-114",
+      "category": "gig_work",
+      "act": "Code on Social Security, 2020",
+      "provision": "Section 114 & Chapter IX",
+      "summary": "Provides a statutory framework for formulating social security schemes for gig workers and platform workers, including life and disability cover, health benefits, and aggregator contributions.",
+      "why_it_matters": "Relevant provisions exist in the Code concerning gig/platform workers and social-security mechanisms, but their current applicability/commencement should be verified before relying on statutory claims.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/16016",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "The Code has received presidential assent; central and state rules and specific enforcement notifications determine operational status.",
+      "status": "verified"
+    },
+    {
+      "id": "mta-2021-maintenance-sec-15",
+      "category": "maintenance",
+      "act": "Model Tenancy Act, 2021",
+      "provision": "Section 15 & Second Schedule",
+      "summary": "Delineates maintenance and repair obligations between landlord and tenant. Landlord is responsible for structural repairs, major electrical rewiring, and external plumbing, while day-to-day upkeep and minor fixtures are assigned to tenant unless otherwise agreed.",
+      "why_it_matters": "Shifting all maintenance to one party may conflict with the statutory repair schedule in states that have adopted the Model Tenancy framework.",
+      "source_url": "https://mohua.gov.in/upload/uploadfiles/files/Model_Tenancy_Act_English.pdf",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Applicability depends on state tenancy legislation and municipal rental bye-laws.",
+      "status": "verified"
+    },
+    {
+      "id": "ica-1872-lockin-damages-sec-74",
+      "category": "lockin",
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 73 & Section 74",
+      "summary": "Governs compensation for breach of contract and liquidated damages. Liquidated damage stipulations are enforceable only to the extent of reasonable compensation for actual loss suffered, rather than penal forfeitures.",
+      "why_it_matters": "Lock-in clauses and early exit fees are common commercial terms; enforceability of early-exit forfeitures depends on whether they represent reasonable pre-estimate of loss or an unconscionable penalty.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India.",
+      "status": "verified"
+    },
+    {
+      "id": "ica-1872-renewal-consent-sec-62",
+      "category": "renewal",
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 10 & Section 62",
+      "summary": "Contracts require free bilateral consent. Novation, rescission, and alteration of contract require the agreement of both parties to be legally operative.",
+      "why_it_matters": "Contractual renewal mechanisms should be compared against bilateral consent principles. Check whether your state's tenancy rules require explicit written renewal agreements.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "General principles of contract law apply nationally; local tenancy acts may specify renewal registration requirements.",
+      "status": "verified"
+    },
+    {
+      "id": "ica-1872-payment-variation-sec-63",
+      "category": "payment",
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 63",
+      "summary": "Every promisee may dispense with or remit, wholly or in part, the performance of the promise made to him, or may accept instead of it any satisfaction which he thinks fit, but unilateral reductions by one party require consensus ad idem.",
+      "why_it_matters": "Variations in agreed payment or commission schedules should be verified against contractual variation terms and relevant sector guidelines.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "General contract law applies pan-India.",
+      "status": "verified"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "pactlens.legal_aid_handoff.v2",
+  "intake_docket_id": "DOCKET-6A5BB217",
+  "generated_at": "2026-09-04T10:49:42.584962+00:00",
+  "case_type": "Rental Dispute — Statutory Breach & Unfair Terms",
+  "disclaimer": "Evidentiary case brief prepared by PactLens for Legal Aid / Tenant Rights Clinics. Includes SHA-256 verification hashes.",
+  "contract": {
+    "name": "RENTAL Agreement Comparison",
+    "type": "rental",
+    "scan_id": "PL-A8A93A196ED5",
+    "counterparty": "Sharma Properties Pvt Ltd"
+  },
+  "evidence": {
+    "certificate_id": "CERT-BSA63-2033F2BF",
+    "old_sha256": "aaf19f5c5f4c05c3bef0d5f975f46edabb27b76ece65444ddad40cdc654b5998",
+    "new_sha256": "bf08d644fc766f27ead900792d92302d8aea6dbea2b7f5ceef1c7da02cf8e489",
+    "combined_sha256": "adc9338626d6667f7dc891ba664853a604efb82ac7e9d6459d4324ee521b7d42",
+    "admissibility": "Section 63 BSA / Sec 65B IEA Certified"
+  },
+  "risk_counts": {
+    "High": 0,
+    "Medium": 0,
+    "Low": 1
+  },
+  "statutory_violations": [
+    {
+      "clause": "Material wording change",
+      "broken_statute": "Indian Contract Act, 1872 — Section 10",
+      "statutory_reference": "Indian Contract Act, 1872, Section 10: All agreements are contracts if made by free consent. Wording shifts altering rights require clear understanding.",
+      "violation_type": "Substantive Variation",
+      "severity": "Low",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please confirm the operational intent behind the revised phrasing in this clause.",
+      "forum": "Informational review"
+    }
+  ],
+  "executive_summary": "Automated legal scan of contract against counterparty 'Sharma Properties Pvt Ltd' identified 1 statutory violations under Model Tenancy Act 2021, Consumer Protection Act 2019, and Indian Contract Act 1872. Recommended immediate relief involves filing a grievance before the jurisdictional Rent Authority / Consumer Commission.",
+  "recommended_forum": "Rent Authority under Section 30 of Model Tenancy Act, 2021",
+  "intake_checklist": [
+    "Identity Proof of Claimant / Tenant",
+    "Signed Baseline Agreement Copy",
+    "PactLens Cryptographic Evidentiary Certificate (Sec 63 BSA)",
+    "Bank Transaction Records of Security Deposit / Rent / Commission",
+    "Written Counter-Notice served to counterparty"
+  ],
+  "legal_context": [
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    }
+  ],
+  "legal_knowledge_base_version": "2026.09.01"
+}
