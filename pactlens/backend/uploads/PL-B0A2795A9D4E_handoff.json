@@ -1,0 +1,57 @@
+{
+  "schema": "pactlens.legal_aid_handoff.v2",
+  "intake_docket_id": "DOCKET-5E7B5BDB",
+  "generated_at": "2026-09-04T07:10:31.193359+00:00",
+  "case_type": "Rental Dispute — Statutory Breach & Unfair Terms",
+  "disclaimer": "Evidentiary case brief prepared by PactLens for Legal Aid / Tenant Rights Clinics. Includes SHA-256 verification hashes.",
+  "contract": {
+    "name": "Rental / Lease — old.txt vs new.txt",
+    "type": "rental",
+    "scan_id": "PL-B0A2795A9D4E",
+    "counterparty": "Sharma Properties Pvt Ltd"
+  },
+  "evidence": {
+    "certificate_id": "CERT-BSA63-75C460EE",
+    "old_sha256": "62f753b0394dd43622dd88bd7774b53c1e86af88bcaaf2c2511bdc53cf4e93f3",
+    "new_sha256": "03c726692328fef3dc1513260ae99e21b41d030e2f601ae4d60c1869edc5eaaa",
+    "combined_sha256": "313f2978d100fde96334a1c9c21c39da3b8598c93c1619c484a41e3574b8278c",
+    "admissibility": "Section 63 BSA / Sec 65B IEA Certified"
+  },
+  "risk_counts": {
+    "High": 1,
+    "Medium": 0,
+    "Low": 0
+  },
+  "statutory_violations": [
+    {
+      "clause": "Deposit refund timeline extended",
+      "broken_statute": "Model Tenancy Act, 2021 — Section 11(1) & (2)",
+      "statutory_reference": "Model Tenancy Act, 2021, Section 11: Security deposit for residential premises shall not exceed two months' rent and must be refunded to the tenant within one month of vacating after agreed deductions.",
+      "violation_type": "Direct Statutory Breach / Unfair Contract Term",
+      "severity": "High",
+      "impact": "extends your obligation / wait by 30 days",
+      "remedy": "Re: Objection to Unlawful Extension of Security Deposit Refund Window\n\nDear Landlord,\n\nI am in receipt of the revised Tenancy Agreement. Clause 5 seeks to extend the refund timeline for my security deposit to 90 days.\n\nPlease note that under Section 11 of the Model Tenancy Act, 2021, the statutory deadline for refunding the security deposit after vacant possession is strictly 30 days (one month). Furthermore, imposing an unreasonable 90-day retention constitutes an 'Unfair Contract' under Section 2(46) of the Consumer Protection Act, 2019.\n\nI request you to amend this clause back to the statutory limit of 30 days prior to execution. Failing this, I reserve the right to report this deviation to the jurisdictional Rent Authority under Section 30 of the Model Tenancy Act.\n\nYours sincerely,\n[Tenant Name]",
+      "forum": "Rent Authority / Rent Court under Section 30 of the Model Tenancy Act, 2021 (or District Consumer Disputes Redressal Commission)"
+    }
+  ],
+  "executive_summary": "Automated legal scan of contract against counterparty 'Sharma Properties Pvt Ltd' identified 1 statutory violations under Model Tenancy Act 2021, Consumer Protection Act 2019, and Indian Contract Act 1872. Recommended immediate relief involves filing a grievance before the jurisdictional Rent Authority / Consumer Commission.",
+  "recommended_forum": "Rent Authority under Section 30 of Model Tenancy Act, 2021",
+  "intake_checklist": [
+    "Identity Proof of Claimant / Tenant",
+    "Signed Baseline Agreement Copy",
+    "PactLens Cryptographic Evidentiary Certificate (Sec 63 BSA)",
+    "Bank Transaction Records of Security Deposit / Rent / Commission",
+    "Written Counter-Notice served to counterparty"
+  ],
+  "legal_context": [
+    {
+      "act": "Model Tenancy Act, 2021",
+      "provision": "Section 11(1) & Section 11(2)",
+      "summary": "Security deposit is capped at 2 months' rent for residential premises and 6 months' rent for non-residential premises. The deposit is to be refunded to the tenant upon handing over vacant possession after agreed and lawful deductions.",
+      "source_url": "https://mohua.gov.in/upload/uploadfiles/files/Model_Tenancy_Act_English.pdf",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Delhi rental arrangements are historically governed by the Delhi Rent Control Act, 1958 where applicable; applicability of the Model Tenancy framework remains subject to central and local legislative notification."
+    }
+  ],
+  "legal_knowledge_base_version": "2026.09.01"
+}

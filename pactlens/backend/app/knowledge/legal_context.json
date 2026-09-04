@@ -1,0 +1,337 @@
+{
+  "deposit_refund_extended": {
+    "title": "Security Deposit Refund Timeline Extended",
+    "broken_statute": "Model Tenancy Act, 2021 — Section 11(1) & (2)",
+    "statutory_reference": "Model Tenancy Act, 2021, Section 11: Security deposit for residential premises shall not exceed two months' rent and must be refunded to the tenant within one month of vacating after agreed deductions.",
+    "violation_type": "Direct Statutory Breach / Unfair Contract Term",
+    "statutory_limit": "Maximum 30 days (1 month) refund deadline; max 2 months rent cap",
+    "severity_label": "High Non-Compliance",
+    "note": "Extending deposit refund beyond 30 days violates Section 11 of the Model Tenancy Act, 2021 and qualifies as an Unfair Contract under Section 2(46) of the Consumer Protection Act, 2019.",
+    "refs": [
+      "Model Tenancy Act, 2021, Section 11",
+      "Consumer Protection Act, 2019, Section 2(46)",
+      "Indian Contract Act, 1872, Section 23"
+    ],
+    "legal_action": {
+      "counter_notice_draft": "Re: Objection to Unlawful Extension of Security Deposit Refund Window\n\nDear Landlord,\n\nI am in receipt of the revised Tenancy Agreement. Clause 5 seeks to extend the refund timeline for my security deposit to 90 days.\n\nPlease note that under Section 11 of the Model Tenancy Act, 2021, the statutory deadline for refunding the security deposit after vacant possession is strictly 30 days (one month). Furthermore, imposing an unreasonable 90-day retention constitutes an 'Unfair Contract' under Section 2(46) of the Consumer Protection Act, 2019.\n\nI request you to amend this clause back to the statutory limit of 30 days prior to execution. Failing this, I reserve the right to report this deviation to the jurisdictional Rent Authority under Section 30 of the Model Tenancy Act.\n\nYours sincerely,\n[Tenant Name]",
+      "dispute_forum": "Rent Authority / Rent Court under Section 30 of the Model Tenancy Act, 2021 (or District Consumer Disputes Redressal Commission)",
+      "filing_steps": [
+        "1. Issue formal written counter-notice citing Section 11 of Model Tenancy Act, 2021 via email and Registered Post with Acknowledgement Due (RPAD).",
+        "2. Retain electronic proof and payment receipts showing initial security deposit transfer.",
+        "3. If unresolved within 14 days, lodge an application before the local Rent Authority claiming interest @ 8-12% p.a. on unlawfully withheld sums."
+      ],
+      "evidentiary_defense": [
+        "Bank statement showing debit of original security deposit",
+        "Signed prior lease agreement showing the 30-day baseline",
+        "Handover inspection report / video recording of the premises upon vacating"
+      ]
+    }
+  },
+  "auto_renewal_introduced": {
+    "title": "Unilateral Auto-Renewal Lock-In Introduced",
+    "broken_statute": "Consumer Protection Act, 2019 — Section 2(46)(i) & Indian Contract Act, 1872 — Section 23",
+    "statutory_reference": "Consumer Protection Act, 2019, Section 2(46): Contracts that impose unreasonable conditions or unilateral automatic continuations without explicit opt-in consent are classified as Unfair Contracts and are unenforceable.",
+    "violation_type": "Unfair Contract Term / Constructive Lock-In",
+    "statutory_limit": "Requires explicit bilateral written consent for term extension; silent roll-over clauses are heavily disfavoured.",
+    "severity_label": "High Risk of Forfeiture",
+    "note": "Clauses that automatically roll over a tenancy or vendor contract without active consent violate fairness doctrines under Consumer Protection Act, 2019 and Indian Contract Act, 1872.",
+    "refs": [
+      "Consumer Protection Act, 2019, Section 2(46)",
+      "Indian Contract Act, 1872, Section 23"
+    ],
+    "legal_action": {
+      "counter_notice_draft": "Re: Objection to Mandatory Auto-Renewal Mechanism\n\nDear Sir/Madam,\n\nI have reviewed Clause 11 of the revised draft which introduces an automatic renewal of the 11-month term unless 45 days advance notice is served.\n\nUnder Section 2(46) of the Consumer Protection Act, 2019, automatic renewal clauses that impose deemed consent and financial penalties for exit constitute unfair contract terms. Any renewal of tenancy or engagement must occur through explicit mutual consent executed in writing.\n\nI request that Clause 11 be modified to state that renewal shall occur strictly upon express mutual written agreement between the parties at least 30 days before expiry.\n\nSincerely,\n[Your Name]",
+      "dispute_forum": "District Consumer Disputes Redressal Commission (DCDRC) or Jurisdictional Civil / Rent Court",
+      "filing_steps": [
+        "1. Decline silent auto-renewal in writing at the time of contract execution.",
+        "2. Send explicit non-renewal notice at least 30 days before original expiry even if landlord asserts auto-renewal occurred.",
+        "3. If landlord forfeits deposit alleging auto-renewal lock-in, file consumer complaint alleging unfair trade practice and deficiency in service."
+      ],
+      "evidentiary_defense": [
+        "Timestamped email communicating non-renewal intent",
+        "Original signed contract showing lack of auto-renewal agreement",
+        "WhatsApp / SMS delivery confirmation of non-renewal declaration"
+      ]
+    }
+  },
+  "auto_renewal_notice_extended": {
+    "title": "Auto-Renewal Cancellation Window Tightened",
+    "broken_statute": "Consumer Protection Act, 2019 — Section 2(46)(ii)",
+    "statutory_reference": "Consumer Protection Act, 2019, Section 2(46): Imposing disproportionate restrictions or onerous pre-conditions on termination of contract by consumer/tenant.",
+    "violation_type": "Unfair Contract Restriction",
+    "statutory_limit": "Standard market notice period is 30 days",
+    "severity_label": "Procedural Trap",
+    "note": "Widening the opt-out notice window from 30 to 45/60 days is a known procedural trap to trigger unintended lock-ins.",
+    "refs": ["Consumer Protection Act, 2019, Section 2(46)"],
+    "legal_action": {
+      "counter_notice_draft": "Re: Objection to Extended Cancellation Window\n\nDear Sir/Madam,\n\nPlease restore the cancellation window to 30 days as per standard industry practice and our prior agreement. Extending the cancellation window creates an unreasonable procedural hurdle contrary to Consumer Protection Act guidelines.\n\nSincerely,\n[Your Name]",
+      "dispute_forum": "District Consumer Disputes Redressal Commission",
+      "filing_steps": [
+        "1. Request restoration to 30-day notice in drafting stage.",
+        "2. Mark calendar with automated reminder 60 days before contract expiry."
+      ],
+      "evidentiary_defense": ["Written notice sent within 30 days of term completion"]
+    }
+  },
+  "notice_period_extended": {
+    "title": "Notice Period & Lock-in Restrictions Extended",
+    "broken_statute": "Transfer of Property Act, 1882 — Section 106 & Model Tenancy Act, 2021 — Section 21",
+    "statutory_reference": "Transfer of Property Act, 1882, Section 106 provides 15 days notice for monthly residential leases unless reasonably agreed. MTA Section 21 provides termination mechanisms on agreed terms without punitive double lock-ins.",
+    "violation_type": "Unreasonable Restriction on Mobility",
+    "statutory_limit": "Standard residential notice: 30 days; lock-in penalty cannot exceed actual damages",
+    "severity_label": "Contractual Imbalance",
+    "note": "Extending notice period and imposing onerous lock-in fees limits tenant exit flexibility and may be held penal under Section 74 of the Indian Contract Act, 1872.",
+    "refs": [
+      "Model Tenancy Act, 2021, Section 21",
+      "Transfer of Property Act, 1882, Section 106",
+      "Indian Contract Act, 1872, Section 74"
+    ],
+    "legal_action": {
+      "counter_notice_draft": "Re: Revision of Notice Period to 30 Days\n\nDear Landlord,\n\nI note that the revised draft increases notice period from 30 to 60 days and adds lock-in penalties. Under Section 74 of the Indian Contract Act, 1872, liquidated damages must reflect actual reasonable loss rather than a penalty.\n\nI propose maintaining the 30-day notice period as agreed in our initial tenancy.\n\nRegards,\n[Tenant Name]",
+      "dispute_forum": "Rent Authority / Rent Court under Model Tenancy Act",
+      "filing_steps": [
+        "1. Propose bilateral 30 days notice.",
+        "2. Ensure lock-in penalties are capped at actual verified re-letting costs."
+      ],
+      "evidentiary_defense": ["Written records of landlord being informed 30 days prior to exit"]
+    }
+  },
+  "maintenance_shifted": {
+    "title": "Complete Maintenance Burden Shifted to Tenant",
+    "broken_statute": "Model Tenancy Act, 2021 — Section 15 & Second Schedule",
+    "statutory_reference": "Model Tenancy Act, 2021, Section 15 & Second Schedule: Structural repairs, major plumbing, external electrical wiring, and white-washing are the statutory responsibility of the landlord. Shifting all upkeep to the tenant violates statutory division.",
+    "violation_type": "Direct Statutory Non-Compliance",
+    "statutory_limit": "Landlord must handle structural, external plumbing, rewiring, and major wear",
+    "severity_label": "Statutory Violation",
+    "note": "Under the Second Schedule of the Model Tenancy Act, 2021, landlords cannot contract out of major structural and infrastructure repairs. Clauses forcing tenant to bear all repairs are legally vulnerable.",
+    "refs": [
+      "Model Tenancy Act, 2021, Section 15 & Second Schedule",
+      "Indian Contract Act, 1872, Section 23"
+    ],
+    "legal_action": {
+      "counter_notice_draft": "Re: Maintenance Responsibility Division under Model Tenancy Act, 2021\n\nDear Landlord,\n\nClause 7 of the draft agreement assigns all repairs, including plumbing and electrical systems, to the tenant.\n\nPlease refer to Section 15 read with the Second Schedule of the Model Tenancy Act, 2021. The statute explicitly mandates that structural repairs, major electrical rewiring, and external plumbing remain the responsibility of the landlord.\n\nI request that Clause 7 be amended to reflect the statutory division of repairs: structural/major infrastructure by Landlord, minor day-to-day fixtures by Tenant.\n\nSincerely,\n[Tenant Name]",
+      "dispute_forum": "Rent Authority under Section 15(3) of Model Tenancy Act, 2021",
+      "filing_steps": [
+        "1. If landlord refuses maintenance, give 15 days written notice to repair under Section 15(2).",
+        "2. If landlord fails to repair, tenant may carry out repair and deduct cost (up to 1 month rent) or approach Rent Authority."
+      ],
+      "evidentiary_defense": [
+        "Photographs and video evidence of pre-existing defects upon move-in",
+        "Repair invoices and formal WhatsApp/email repair requests sent to landlord"
+      ]
+    }
+  },
+  "liability_shifted": {
+    "title": "One-Sided Indemnity & Liability Shift",
+    "broken_statute": "Indian Contract Act, 1872 — Section 124, 125 & Section 23",
+    "statutory_reference": "Indian Contract Act, 1872, Section 23: An agreement the terms of which are opposed to public policy or force one party to indemnify another against their own negligence is void ab initio.",
+    "violation_type": "Unconscionable Indemnity Clause / Void Under Sec 23",
+    "statutory_limit": "Indemnity must be bilateral and strictly exclude the indemnified party's own negligence or wilful default",
+    "severity_label": "High Legal Vulnerability",
+    "note": "Forcing a tenant or gig worker to hold the platform/landlord harmless for all claims (even those arising from property structural defects or platform failures) is unconscionable and unenforceable under Indian law (Central Inland Water Transport Corp v. Brojo Nath Ganguly).",
+    "refs": [
+      "Indian Contract Act, 1872, Section 23 & 124",
+      "Consumer Protection Act, 2019, Section 2(46)"
+    ],
+    "legal_action": {
+      "counter_notice_draft": "Re: Objection to Unilateral Indemnity Clause\n\nDear Sir/Madam,\n\nClause 8 requires me to indemnify and hold harmless the counterparty from all losses, claims, and injuries. Under settled Indian jurisprudence (Central Inland Water Transport Corp principle) and Section 23 of the Indian Contract Act, 1872, blanket exculpatory clauses excluding one party's liability for structural defects or negligence are void as opposed to public policy.\n\nPlease amend the clause to state that each party remains liable for its own acts, omissions, or gross negligence.\n\nRegards,\n[Your Name]",
+      "dispute_forum": "Civil Court / District Consumer Disputes Redressal Commission",
+      "filing_steps": [
+        "1. Strike out unilateral indemnity and add mutual negligence exclusion.",
+        "2. If a dispute arises from premises defect, invoke landlord duty under law of torts and Section 108 of Transfer of Property Act."
+      ],
+      "evidentiary_defense": [
+        "Inspection records and maintenance logs proving third-party or structural origin of loss"
+      ]
+    }
+  },
+  "arbitration_introduced": {
+    "title": "Mandatory Binding Arbitration Introduced",
+    "broken_statute": "Indian Contract Act, 1872 — Section 28 & Arbitration and Conciliation Act, 1996",
+    "statutory_reference": "Indian Contract Act, 1872, Section 28: Agreements in restraint of legal proceedings are void. The Supreme Court in Vidya Drolia (2020) affirmed that landlord-tenant disputes governed by special tenancy statutes are non-arbitrable.",
+    "violation_type": "Jurisdictional Exclusion / Statutory Pre-emption",
+    "statutory_limit": "Residential tenancies governed by Rent Control / Model Tenancy Act lie before Rent Authorities, not private commercial arbitrators",
+    "severity_label": "Severe Cost Trap",
+    "note": "Forcing an individual tenant or gig worker into private commercial arbitration imposes prohibitive fees (often > ₹50,000 per hearing) to extinguish grievance rights. Under Supreme Court precedent (Vidya Drolia), statutory tenancy disputes belong before Rent Courts.",
+    "refs": [
+      "Arbitration and Conciliation Act, 1996",
+      "Indian Contract Act, 1872, Section 28",
+      "Vidya Drolia v. Durga Trading Corp (2020) 2 SCC 1"
+    ],
+    "legal_action": {
+      "counter_notice_draft": "Re: Objection to Private Arbitration Clause in Tenancy\n\nDear Landlord,\n\nClause 10 introduces mandatory private arbitration under the Arbitration and Conciliation Act, 1996. As settled by the Supreme Court of India in Vidya Drolia (2020), tenancy disputes governed by statutory rent frameworks are non-arbitrable and fall within the exclusive jurisdiction of the designated Rent Authority / Civil Courts.\n\nPlease remove the private arbitration clause and restore standard jurisdictional recourse to local courts / Rent Authorities.\n\nSincerely,\n[Tenant Name]",
+      "dispute_forum": "Jurisdictional Rent Authority / Civil Court (Private arbitration can be challenged under Section 11/16 of Arbitration Act)",
+      "filing_steps": [
+        "1. Object to sole arbitrator appointment; assert non-arbitrability under Vidya Drolia precedent.",
+        "2. File petition before Rent Authority under Model Tenancy Act which supersedes private arbitration agreements."
+      ],
+      "evidentiary_defense": [
+        "Copy of rental agreement demonstrating residential tenancy character"
+      ]
+    }
+  },
+  "unilateral_amendment": {
+    "title": "Unilateral Discretion to Modify Agreement",
+    "broken_statute": "Indian Contract Act, 1872 — Section 62 & Consumer Protection Act, 2019 — Section 2(46)(vi)",
+    "statutory_reference": "Indian Contract Act, 1872, Section 62 requires mutual consensus ad idem for novation or variation of contract. Consumer Protection Act, 2019, Section 2(46)(vi) declares unilateral contract modifications as Unfair Contracts.",
+    "violation_type": "Unfair Contract Term / Void Variation Clause",
+    "statutory_limit": "All variations must require written bilateral addendum signed by both parties",
+    "severity_label": "High Abuse Potential",
+    "note": "Allowing one party to unilaterally modify terms without tenant/worker consent violates Section 62 of Contract Act and Section 2(46) of CPA 2019.",
+    "refs": [
+      "Consumer Protection Act, 2019, Section 2(46)",
+      "Indian Contract Act, 1872, Section 62"
+    ],
+    "legal_action": {
+      "counter_notice_draft": "Re: Rejection of Unilateral Modification Clause\n\nDear Sir/Madam,\n\nClause 12 reserves the right to amend terms at sole discretion via email. Under Section 62 of the Indian Contract Act, 1872 and Section 2(46) of the Consumer Protection Act, 2019, contract variations without bilateral consent are void.\n\nPlease replace this with: 'No amendment or variation of this Agreement shall be valid unless agreed to in writing and signed by both parties.'\n\nSincerely,\n[Your Name]",
+      "dispute_forum": "District Consumer Commission / Rent Authority",
+      "filing_steps": [
+        "1. If landlord or platform unilaterally alters terms, formally email objection stating lack of consent within 7 days.",
+        "2. Continue paying agreed baseline rent/fees under protest."
+      ],
+      "evidentiary_defense": [
+        "Original signed contract and proof of prompt written dissent to unilateral notice"
+      ]
+    }
+  },
+  "payment_commission_reduced": {
+    "title": "Platform Commission Increase / Payout Reduction",
+    "broken_statute": "Code on Social Security, 2020 — Section 114 & Indian Contract Act, 1872 — Section 23",
+    "statutory_reference": "Code on Social Security, 2020, Section 114 provides for aggregator obligations and fair remuneration norms. Indian Contract Act, 1872, Section 23 prohibits unconscionable wage cuts without grievance recourse.",
+    "violation_type": "Arbitrary Compensation Variation / Unfair Trade Practice",
+    "statutory_limit": "Requires 30 days notice and consultation under gig worker regulations",
+    "severity_label": "Livelihood Impact",
+    "note": "Sudden reduction in gig payout or hike in platform commission violates aggregator transparency rules and gig worker protection guidelines.",
+    "refs": [
+      "Code on Social Security, 2020, Section 114",
+      "Consumer Protection Act, 2019",
+      "Indian Contract Act, 1872"
+    ],
+    "legal_action": {
+      "counter_notice_draft": "Formal Representation: Objection to Arbitrary Commission Hike / Payout Cut\n\nTo the Grievance Redressal Officer / Platform Management,\n\nThe recent change in fee structure reduces partner net earnings by ~15% without notice. Under the Code on Social Security, 2020 and Consumer Protection Fair Trade principles, unilateral tariff changes without transparent rationale constitute an unfair trade practice.\n\nWe request immediate restoration of baseline rates and an open hearing before the platform grievance desk.\n\nSigned,\n[Partner / Worker ID]",
+      "dispute_forum": "State Labour Commissioner / Aggregator Grievance Officer / Consumer Commission",
+      "filing_steps": [
+        "1. File formal grievance through platform app and email Grievance Officer.",
+        "2. Submit representation through registered gig worker collective or union.",
+        "3. File petition before State Labour Welfare Board."
+      ],
+      "evidentiary_defense": [
+        "Screenshots of previous rate card vs revised rate card",
+        "Earning slips showing net income drop"
+      ]
+    }
+  },
+  "rent_increased": {
+    "title": "Rent Increase Exceeding Agreed Revision",
+    "broken_statute": "Model Tenancy Act, 2021 — Section 9 & 10",
+    "statutory_reference": "Model Tenancy Act, 2021, Section 9 & 10: Revision of rent shall be in accordance with terms agreed in the tenancy agreement. Notice of revision must be given at least three months before revision takes effect.",
+    "violation_type": "Improper Rent Revision / Insufficient Notice",
+    "statutory_limit": "3 months prior written notice required; revision rate must adhere to agreement terms (standard 5-8% annual)",
+    "severity_label": "Statutory Non-Compliance",
+    "note": "Under MTA Section 10, landlords cannot arbitrarily hike rent without providing three months advance written notice.",
+    "refs": [
+      "Model Tenancy Act, 2021, Section 9 and 10",
+      "State Rent Control Acts"
+    ],
+    "legal_action": {
+      "counter_notice_draft": "Re: Notice of Irregular Rent Revision\n\nDear Landlord,\n\nThe proposed rent increase from ₹28,000 to ₹32,000 (~14.3%) exceeds agreed terms and was not accompanied by the mandatory 3 months written notice required under Section 10 of the Model Tenancy Act, 2021.\n\nI request that rent revision be capped at the customary 5-7% rate and effective only after the statutory 3-month notice period.\n\nSincerely,\n[Tenant Name]",
+      "dispute_forum": "Rent Authority under Section 10 of Model Tenancy Act, 2021",
+      "filing_steps": [
+        "1. Continue paying existing rent on time via bank transfer.",
+        "2. Send written objection stating lack of statutory 3-month notice."
+      ],
+      "evidentiary_defense": [
+        "Bank transaction history showing timely payment of baseline rent",
+        "Date of receipt of new agreement draft"
+      ]
+    }
+  },
+  "data_rights_expanded": {
+    "title": "Over-Broad Personal Data Collection & Third-Party Sharing",
+    "broken_statute": "Digital Personal Data Protection Act (DPDPA), 2023 — Section 6 & 7",
+    "statutory_reference": "Digital Personal Data Protection Act, 2023, Section 6 mandates that consent must be free, specific, informed, unconditional, and unambiguous. Section 7 prohibits processing beyond legitimate specified purpose.",
+    "violation_type": "Data Protection Violation / Lack of Purpose Limitation",
+    "statutory_limit": "Strict purpose limitation; data cannot be shared with marketing affiliates without separate itemized consent",
+    "severity_label": "Privacy Breach",
+    "note": "Expanding data collection to location tracking, biometric data, or marketing sharing without granular consent violates Section 6 of DPDPA, 2023.",
+    "refs": [
+      "Digital Personal Data Protection Act, 2023, Section 6 & 7"
+    ],
+    "legal_action": {
+      "counter_notice_draft": "Notice under Digital Personal Data Protection Act, 2023 (Section 6)\n\nTo Data Protection Officer,\n\nI object to the broad personal data sharing clause in the revised terms. Under Section 6 of DPDPA, 2023, consent must be granular and itemized. I expressly decline consent for marketing sharing and third-party data monetization.\n\nSincerely,\n[Your Name]",
+      "dispute_forum": "Data Protection Board of India (DPBI)",
+      "filing_steps": [
+        "1. Serve notice to designated Data Protection Officer.",
+        "2. If unsatisfied after 30 days, file complaint with Data Protection Board."
+      ],
+      "evidentiary_defense": ["Copy of submitted consent preference and revised privacy clause"]
+    }
+  },
+  "fee_increased": {
+    "title": "Undisclosed or Unilateral Fee Increase",
+    "broken_statute": "Consumer Protection Act, 2019 — Section 2(46)",
+    "statutory_reference": "Consumer Protection Act, 2019, Section 2(46): Imposing unbargained ancillary charges or unilateral fee hikes qualifies as an unfair contract term.",
+    "violation_type": "Unfair Contract Fee",
+    "statutory_limit": "All ancillary fees must be explicitly specified in schedule of charges",
+    "severity_label": "Hidden Charge",
+    "note": "Ancillary charges introduced without consent can be challenged before consumer dispute forums.",
+    "refs": ["Consumer Protection Act, 2019, Section 2(46)"],
+    "legal_action": {
+      "counter_notice_draft": "Re: Objection to Unagreed Ancillary Fees\n\nPlease remove the newly introduced ancillary fee as it was not part of our agreed fee schedule.\n\nRegards,\n[Your Name]",
+      "dispute_forum": "District Consumer Commission",
+      "filing_steps": ["1. Submit written objection.", "2. Demand itemized invoice breakdown."],
+      "evidentiary_defense": ["Original fee schedule"]
+    }
+  },
+  "protection_removed": {
+    "title": "Statutory or Negotiated Tenant Protection Removed",
+    "broken_statute": "Indian Contract Act, 1872 — Section 23 & Model Tenancy Act, 2021",
+    "statutory_reference": "Removal of protective covenants (e.g. landlord repair duties, cooling-off windows, grievance channels) creates severe contractual asymmetry.",
+    "violation_type": "Removal of Baseline Protection",
+    "statutory_limit": "Protections mandated by tenancy or consumer laws cannot be contracted away",
+    "severity_label": "High Erosion of Rights",
+    "note": "Silently excising a tenant/worker protective clause weakens legal standing in disputes. Always insist on retaining baseline protections.",
+    "refs": [
+      "Indian Contract Act, 1872, Section 23",
+      "Model Tenancy Act, 2021"
+    ],
+    "legal_action": {
+      "counter_notice_draft": "Re: Restoration of Excised Protective Clause\n\nDear Landlord/Partner,\n\nI note that the protective provision from our signed agreement has been deleted in this revision. Please restore this protection before signing.\n\nSincerely,\n[Your Name]",
+      "dispute_forum": "Rent Authority / Consumer Commission",
+      "filing_steps": ["1. Request immediate reinstatement citing signed baseline agreement."],
+      "evidentiary_defense": ["Signed copy of prior agreement containing the protective clause"]
+    }
+  },
+  "clause_removed": {
+    "title": "Contractual Clause Removed",
+    "broken_statute": "Indian Contract Act, 1872 — Section 62",
+    "statutory_reference": "Indian Contract Act, 1872, Section 62: Any deletion of mutually agreed terms requires bilateral consensus.",
+    "violation_type": "Unilateral Deletion",
+    "statutory_limit": "Requires express mutual agreement",
+    "severity_label": "Contract Variation",
+    "note": "Verify whether the excised clause contained essential rights or exemptions.",
+    "refs": ["Indian Contract Act, 1872"],
+    "legal_action": {
+      "counter_notice_draft": "Please clarify why the clause present in our initial contract was omitted in this version.",
+      "dispute_forum": "Rent Authority / Civil Court",
+      "filing_steps": ["Clarify intent and request reinstatement if protective."],
+      "evidentiary_defense": ["Prior signed baseline agreement"]
+    }
+  },
+  "material_wording_change": {
+    "title": "Substantive Wording Revision",
+    "broken_statute": "Indian Contract Act, 1872 — Section 10",
+    "statutory_reference": "Indian Contract Act, 1872, Section 10: All agreements are contracts if made by free consent. Wording shifts altering rights require clear understanding.",
+    "violation_type": "Substantive Variation",
+    "statutory_limit": "Parties must be in consensus ad idem",
+    "severity_label": "Review Recommended",
+    "note": "Even nuanced wording changes can shift standard of care or liability obligations.",
+    "refs": ["Indian Contract Act, 1872"],
+    "legal_action": {
+      "counter_notice_draft": "Please confirm the operational intent behind the revised phrasing in this clause.",
+      "dispute_forum": "Informational review",
+      "filing_steps": ["Compare side-by-side with prior agreement."],
+      "evidentiary_defense": ["Side-by-side diff comparison"]
+    }
+  }
+}

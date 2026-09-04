@@ -1,0 +1,255 @@
+{
+  "schema": "pactlens.legal_aid_handoff.v2",
+  "intake_docket_id": "DOCKET-FC94A4E5",
+  "generated_at": "2026-09-04T07:10:49.478730+00:00",
+  "case_type": "Rental Dispute — Statutory Breach & Unfair Terms",
+  "disclaimer": "Evidentiary case brief prepared by PactLens for Legal Aid / Tenant Rights Clinics. Includes SHA-256 verification hashes.",
+  "contract": {
+    "name": "Ayesha — Green Park lease renewal",
+    "type": "rental",
+    "scan_id": "PL-B4B284293C08",
+    "counterparty": "Sharma Properties Pvt Ltd"
+  },
+  "evidence": {
+    "certificate_id": "CERT-BSA63-451851E3",
+    "old_sha256": "877c41dcf1a6b5b4df8115a174129424ef942c4e4c78624f8af96463b7cfe914",
+    "new_sha256": "a50e1307869bb7f833351a8784d02dc207a16104bfc8d274e1d20f1d3b7cf917",
+    "combined_sha256": "c2dc632332dcfd7977a6d89ec8e21b69dd6dbe55b0cceff1fa3879df374facc2",
+    "admissibility": "Section 63 BSA / Sec 65B IEA Certified"
+  },
+  "risk_counts": {
+    "High": 6,
+    "Medium": 4,
+    "Low": 2
+  },
+  "statutory_violations": [
+    {
+      "clause": "Auto-renewal introduced",
+      "broken_statute": "Consumer Protection Act, 2019 — Section 2(46)(i) & Indian Contract Act, 1872 — Section 23",
+      "statutory_reference": "Consumer Protection Act, 2019, Section 2(46): Contracts that impose unreasonable conditions or unilateral automatic continuations without explicit opt-in consent are classified as Unfair Contracts and are unenforceable.",
+      "violation_type": "Unfair Contract Term / Constructive Lock-In",
+      "severity": "High",
+      "impact": "requires 45-day advance cancellation to avoid lock-in",
+      "remedy": "Re: Objection to Mandatory Auto-Renewal Mechanism\n\nDear Sir/Madam,\n\nI have reviewed Clause 11 of the revised draft which introduces an automatic renewal of the 11-month term unless 45 days advance notice is served.\n\nUnder Section 2(46) of the Consumer Protection Act, 2019, automatic renewal clauses that impose deemed consent and financial penalties for exit constitute unfair contract terms. Any renewal of tenancy or engagement must occur through explicit mutual consent executed in writing.\n\nI request that Clause 11 be modified to state that renewal shall occur strictly upon express mutual written agreement between the parties at least 30 days before expiry.\n\nSincerely,\n[Your Name]",
+      "forum": "District Consumer Disputes Redressal Commission (DCDRC) or Jurisdictional Civil / Rent Court"
+    },
+    {
+      "clause": "Deposit refund timeline extended",
+      "broken_statute": "Model Tenancy Act, 2021 — Section 11(1) & (2)",
+      "statutory_reference": "Model Tenancy Act, 2021, Section 11: Security deposit for residential premises shall not exceed two months' rent and must be refunded to the tenant within one month of vacating after agreed deductions.",
+      "violation_type": "Direct Statutory Breach / Unfair Contract Term",
+      "severity": "High",
+      "impact": "extends your obligation / wait by 60 days",
+      "remedy": "Re: Objection to Unlawful Extension of Security Deposit Refund Window\n\nDear Landlord,\n\nI am in receipt of the revised Tenancy Agreement. Clause 5 seeks to extend the refund timeline for my security deposit to 90 days.\n\nPlease note that under Section 11 of the Model Tenancy Act, 2021, the statutory deadline for refunding the security deposit after vacant possession is strictly 30 days (one month). Furthermore, imposing an unreasonable 90-day retention constitutes an 'Unfair Contract' under Section 2(46) of the Consumer Protection Act, 2019.\n\nI request you to amend this clause back to the statutory limit of 30 days prior to execution. Failing this, I reserve the right to report this deviation to the jurisdictional Rent Authority under Section 30 of the Model Tenancy Act.\n\nYours sincerely,\n[Tenant Name]",
+      "forum": "Rent Authority / Rent Court under Section 30 of the Model Tenancy Act, 2021 (or District Consumer Disputes Redressal Commission)"
+    },
+    {
+      "clause": "Liability shifted onto you",
+      "broken_statute": "Indian Contract Act, 1872 — Section 124, 125 & Section 23",
+      "statutory_reference": "Indian Contract Act, 1872, Section 23: An agreement the terms of which are opposed to public policy or force one party to indemnify another against their own negligence is void ab initio.",
+      "violation_type": "Unconscionable Indemnity Clause / Void Under Sec 23",
+      "severity": "High",
+      "impact": "increases your personal financial exposure (amount not specified in clause)",
+      "remedy": "Re: Objection to Unilateral Indemnity Clause\n\nDear Sir/Madam,\n\nClause 8 requires me to indemnify and hold harmless the counterparty from all losses, claims, and injuries. Under settled Indian jurisprudence (Central Inland Water Transport Corp principle) and Section 23 of the Indian Contract Act, 1872, blanket exculpatory clauses excluding one party's liability for structural defects or negligence are void as opposed to public policy.\n\nPlease amend the clause to state that each party remains liable for its own acts, omissions, or gross negligence.\n\nRegards,\n[Your Name]",
+      "forum": "Civil Court / District Consumer Disputes Redressal Commission"
+    },
+    {
+      "clause": "Liability shifted onto you",
+      "broken_statute": "Indian Contract Act, 1872 — Section 124, 125 & Section 23",
+      "statutory_reference": "Indian Contract Act, 1872, Section 23: An agreement the terms of which are opposed to public policy or force one party to indemnify another against their own negligence is void ab initio.",
+      "violation_type": "Unconscionable Indemnity Clause / Void Under Sec 23",
+      "severity": "High",
+      "impact": "increases your personal financial exposure (amount not specified in clause)",
+      "remedy": "Re: Objection to Unilateral Indemnity Clause\n\nDear Sir/Madam,\n\nClause 8 requires me to indemnify and hold harmless the counterparty from all losses, claims, and injuries. Under settled Indian jurisprudence (Central Inland Water Transport Corp principle) and Section 23 of the Indian Contract Act, 1872, blanket exculpatory clauses excluding one party's liability for structural defects or negligence are void as opposed to public policy.\n\nPlease amend the clause to state that each party remains liable for its own acts, omissions, or gross negligence.\n\nRegards,\n[Your Name]",
+      "forum": "Civil Court / District Consumer Disputes Redressal Commission"
+    },
+    {
+      "clause": "Rent increased",
+      "broken_statute": "Model Tenancy Act, 2021 — Section 9 & 10",
+      "statutory_reference": "Model Tenancy Act, 2021, Section 9 & 10: Revision of rent shall be in accordance with terms agreed in the tenancy agreement. Notice of revision must be given at least three months before revision takes effect.",
+      "violation_type": "Improper Rent Revision / Insufficient Notice",
+      "severity": "High",
+      "impact": "~₹4,000 more per rent cycle",
+      "remedy": "Re: Notice of Irregular Rent Revision\n\nDear Landlord,\n\nThe proposed rent increase from ₹28,000 to ₹32,000 (~14.3%) exceeds agreed terms and was not accompanied by the mandatory 3 months written notice required under Section 10 of the Model Tenancy Act, 2021.\n\nI request that rent revision be capped at the customary 5-7% rate and effective only after the statutory 3-month notice period.\n\nSincerely,\n[Tenant Name]",
+      "forum": "Rent Authority under Section 10 of Model Tenancy Act, 2021"
+    },
+    {
+      "clause": "Unilateral amendment rights introduced",
+      "broken_statute": "Indian Contract Act, 1872 — Section 62 & Consumer Protection Act, 2019 — Section 2(46)(vi)",
+      "statutory_reference": "Indian Contract Act, 1872, Section 62 requires mutual consensus ad idem for novation or variation of contract. Consumer Protection Act, 2019, Section 2(46)(vi) declares unilateral contract modifications as Unfair Contracts.",
+      "violation_type": "Unfair Contract Term / Void Variation Clause",
+      "severity": "High",
+      "impact": "terms may change without your affirmative consent",
+      "remedy": "Re: Rejection of Unilateral Modification Clause\n\nDear Sir/Madam,\n\nClause 12 reserves the right to amend terms at sole discretion via email. Under Section 62 of the Indian Contract Act, 1872 and Section 2(46) of the Consumer Protection Act, 2019, contract variations without bilateral consent are void.\n\nPlease replace this with: 'No amendment or variation of this Agreement shall be valid unless agreed to in writing and signed by both parties.'\n\nSincerely,\n[Your Name]",
+      "forum": "District Consumer Commission / Rent Authority"
+    },
+    {
+      "clause": "Arbitration clause introduced",
+      "broken_statute": "Indian Contract Act, 1872 — Section 28 & Arbitration and Conciliation Act, 1996",
+      "statutory_reference": "Indian Contract Act, 1872, Section 28: Agreements in restraint of legal proceedings are void. The Supreme Court in Vidya Drolia (2020) affirmed that landlord-tenant disputes governed by special tenancy statutes are non-arbitrable.",
+      "violation_type": "Jurisdictional Exclusion / Statutory Pre-emption",
+      "severity": "Medium",
+      "impact": "limits court options — dispute path changes",
+      "remedy": "Re: Objection to Private Arbitration Clause in Tenancy\n\nDear Landlord,\n\nClause 10 introduces mandatory private arbitration under the Arbitration and Conciliation Act, 1996. As settled by the Supreme Court of India in Vidya Drolia (2020), tenancy disputes governed by statutory rent frameworks are non-arbitrable and fall within the exclusive jurisdiction of the designated Rent Authority / Civil Courts.\n\nPlease remove the private arbitration clause and restore standard jurisdictional recourse to local courts / Rent Authorities.\n\nSincerely,\n[Tenant Name]",
+      "forum": "Jurisdictional Rent Authority / Civil Court (Private arbitration can be challenged under Section 11/16 of Arbitration Act)"
+    },
+    {
+      "clause": "Clause removed",
+      "broken_statute": "Indian Contract Act, 1872 — Section 62",
+      "statutory_reference": "Indian Contract Act, 1872, Section 62: Any deletion of mutually agreed terms requires bilateral consensus.",
+      "violation_type": "Unilateral Deletion",
+      "severity": "Medium",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please clarify why the clause present in our initial contract was omitted in this version.",
+      "forum": "Rent Authority / Civil Court"
+    },
+    {
+      "clause": "Clause removed",
+      "broken_statute": "Indian Contract Act, 1872 — Section 62",
+      "statutory_reference": "Indian Contract Act, 1872, Section 62: Any deletion of mutually agreed terms requires bilateral consensus.",
+      "violation_type": "Unilateral Deletion",
+      "severity": "Medium",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please clarify why the clause present in our initial contract was omitted in this version.",
+      "forum": "Rent Authority / Civil Court"
+    },
+    {
+      "clause": "Notice period extended",
+      "broken_statute": "Transfer of Property Act, 1882 — Section 106 & Model Tenancy Act, 2021 — Section 21",
+      "statutory_reference": "Transfer of Property Act, 1882, Section 106 provides 15 days notice for monthly residential leases unless reasonably agreed. MTA Section 21 provides termination mechanisms on agreed terms without punitive double lock-ins.",
+      "violation_type": "Unreasonable Restriction on Mobility",
+      "severity": "Medium",
+      "impact": "extends your obligation / wait by 30 days",
+      "remedy": "Re: Revision of Notice Period to 30 Days\n\nDear Landlord,\n\nI note that the revised draft increases notice period from 30 to 60 days and adds lock-in penalties. Under Section 74 of the Indian Contract Act, 1872, liquidated damages must reflect actual reasonable loss rather than a penalty.\n\nI propose maintaining the 30-day notice period as agreed in our initial tenancy.\n\nRegards,\n[Tenant Name]",
+      "forum": "Rent Authority / Rent Court under Model Tenancy Act"
+    },
+    {
+      "clause": "Material wording change",
+      "broken_statute": "Indian Contract Act, 1872 — Section 10",
+      "statutory_reference": "Indian Contract Act, 1872, Section 10: All agreements are contracts if made by free consent. Wording shifts altering rights require clear understanding.",
+      "violation_type": "Substantive Variation",
+      "severity": "Low",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please confirm the operational intent behind the revised phrasing in this clause.",
+      "forum": "Informational review"
+    },
+    {
+      "clause": "Material wording change",
+      "broken_statute": "Indian Contract Act, 1872 — Section 10",
+      "statutory_reference": "Indian Contract Act, 1872, Section 10: All agreements are contracts if made by free consent. Wording shifts altering rights require clear understanding.",
+      "violation_type": "Substantive Variation",
+      "severity": "Low",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please confirm the operational intent behind the revised phrasing in this clause.",
+      "forum": "Informational review"
+    }
+  ],
+  "executive_summary": "Automated legal scan of contract against counterparty 'Sharma Properties Pvt Ltd' identified 12 statutory violations under Model Tenancy Act 2021, Consumer Protection Act 2019, and Indian Contract Act 1872. Recommended immediate relief involves filing a grievance before the jurisdictional Rent Authority / Consumer Commission.",
+  "recommended_forum": "Rent Authority under Section 30 of Model Tenancy Act, 2021",
+  "intake_checklist": [
+    "Identity Proof of Claimant / Tenant",
+    "Signed Baseline Agreement Copy",
+    "PactLens Cryptographic Evidentiary Certificate (Sec 63 BSA)",
+    "Bank Transaction Records of Security Deposit / Rent / Commission",
+    "Written Counter-Notice served to counterparty"
+  ],
+  "legal_context": [
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 10 & Section 62",
+      "summary": "Contracts require free bilateral consent. Novation, rescission, and alteration of contract require the agreement of both parties to be legally operative.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "General principles of contract law apply nationally; local tenancy acts may specify renewal registration requirements."
+    },
+    {
+      "act": "Model Tenancy Act, 2021",
+      "provision": "Section 11(1) & Section 11(2)",
+      "summary": "Security deposit is capped at 2 months' rent for residential premises and 6 months' rent for non-residential premises. The deposit is to be refunded to the tenant upon handing over vacant possession after agreed and lawful deductions.",
+      "source_url": "https://mohua.gov.in/upload/uploadfiles/files/Model_Tenancy_Act_English.pdf",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "The Model Tenancy Act is a central model framework and applicability depends on state adoption."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Model Tenancy Act, 2021",
+      "provision": "Section 9 & Section 10",
+      "summary": "Rent revision is governed by the terms agreed in the tenancy agreement. Notice of revision must be given at least 3 months prior to the date on which revised rent becomes payable under the model framework.",
+      "source_url": "https://mohua.gov.in/upload/uploadfiles/files/Model_Tenancy_Act_English.pdf",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "The Model Tenancy Act is a central model framework and applicability depends on state adoption."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Model Tenancy Act, 2021",
+      "provision": "Section 30 & Section 38",
+      "summary": "The Model Tenancy Act establishes a three-tier statutory adjudicatory mechanism comprising the Rent Authority, Rent Court, and Rent Tribunal for resolution of tenancy disputes, impacting civil court jurisdiction in adopting states.",
+      "source_url": "https://mohua.gov.in/upload/uploadfiles/files/Model_Tenancy_Act_English.pdf",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Jurisdiction of Rent Authorities and civil courts depends on whether your state has enacted legislation based on the Model Tenancy Act."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Model Tenancy Act, 2021",
+      "provision": "Section 9 & Section 10",
+      "summary": "Rent revision is governed by the terms agreed in the tenancy agreement. Notice of revision must be given at least 3 months prior to the date on which revised rent becomes payable under the model framework.",
+      "source_url": "https://mohua.gov.in/upload/uploadfiles/files/Model_Tenancy_Act_English.pdf",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "The Model Tenancy Act is a central model framework and applicability depends on state adoption."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    }
+  ],
+  "legal_knowledge_base_version": "2026.09.01"
+}
