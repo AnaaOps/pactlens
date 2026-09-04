@@ -1,52 +1,248 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bg: #0A0B0F;
-  --color-surface: #14161C;
-  --color-surface-2: #1A1D25;
-  --color-border: #262A35;
-  --color-gold: #E9B949;
-  --color-risk-high: #E5484D;
-  --color-risk-med: #E0952F;
-  --color-risk-low: #35B57C;
-  --color-lavender: #A6A9E8;
-  --color-ink: #E8EAF0;
-  --color-muted: #8B90A0;
-  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --color-bg: #111317;
+  --color-film: rgba(18, 20, 25, 0.78);
+  --color-surface: #17191E;
+  --color-surface-2: #1E2127;
+  --color-surface-3: #262A33;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-dark: rgba(255, 255, 255, 0.16);
+  --color-border-subtle: rgba(255, 255, 255, 0.04);
+  --color-crimson: #B8323B;
+  --color-crimson-hover: #CB3842;
+  --color-crimson-light: rgba(184, 50, 59, 0.16);
+  --color-crimson-border: rgba(184, 50, 59, 0.35);
+  --color-burgundy: #B8323B;
+  --color-burgundy-hover: #CB3842;
+  --color-burgundy-light: rgba(184, 50, 59, 0.16);
+  --color-burgundy-border: rgba(184, 50, 59, 0.35);
+  --color-gold: #B8323B;
+  --color-risk-high: #D04049;
+  --color-risk-med: #E2942C;
+  --color-risk-low: #22C55E;
+  --color-ink: #F5F3EF;
+  --color-charcoal: #D5D1CB;
+  --color-dark-brown: #B8323B;
+  --color-muted: #9C978F;
+  --color-faint: #625E57;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Newsreader", "Source Serif 4", "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
 }
 
 @layer base {
-  html, body, #root {
+  html,
+  body,
+  #root {
     min-height: 100%;
   }
   body {
     margin: 0;
-    background: var(--color-bg);
+    background-color: #111317;
     color: var(--color-ink);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.012em;
+    overflow-x: hidden;
   }
   * {
     box-sizing: border-box;
   }
+  ::selection {
+    background: rgba(184, 50, 59, 0.35);
+    color: #FFF;
+  }
 }
 
 @layer utilities {
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+  .font-mono {
+    font-family: var(--font-mono);
+  }
   .eyebrow {
+    font-family: var(--font-mono);
     font-size: 0.68rem;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--color-gold);
+    color: var(--color-muted);
     font-weight: 600;
+  }
+  .doc-sheet {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.4);
+  }
+  .doc-paper {
+    background: #17191E;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.35);
   }
   .card {
     background: var(--color-surface);
     border: 1px solid var(--color-border);
-    border-radius: 13px;
+    border-radius: 12px;
   }
   .card-2 {
     background: var(--color-surface-2);
     border: 1px solid var(--color-border);
-    border-radius: 13px;
+    border-radius: 10px;
+  }
+  .rule {
+    border: 0;
+    border-top: 1px solid var(--color-border);
+  }
+  .red-underline {
+    text-decoration: underline;
+    text-decoration-color: var(--color-crimson);
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1.5px;
+  }
+  .mark-changed {
+    background: rgba(184, 50, 59, 0.25);
+    color: #FFA1A8;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: #D04049;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1.5px;
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+  }
+  .crimson-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border: 1px solid var(--color-crimson-border);
+    background: var(--color-crimson-light);
+    color: #FFA1A8;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.15rem 0.5rem;
+    border-radius: 6px;
+  }
+  .burgundy-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    border: 1px solid var(--color-crimson-border);
+    background: var(--color-crimson-light);
+    color: #FFA1A8;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.15rem 0.5rem;
+    border-radius: 6px;
+  }
+}
+
+/* Background Subtle Parallax / Ambient Animations */
+@keyframes backgroundDriftSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(-4deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(-3.5deg);
+  }
+}
+
+@keyframes gavelFloatSlow {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-6px) scale(1.01);
+  }
+}
+
+@keyframes stampPulse {
+  0%, 100% {
+    transform: rotate(-10deg) scale(1);
+    opacity: 0.42;
+  }
+  50% {
+    transform: rotate(-10.5deg) scale(1.02);
+    opacity: 0.5;
+  }
+}
+
+.animate-legal-drift {
+  animation: backgroundDriftSlow 18s ease-in-out infinite;
+}
+
+.animate-gavel-drift {
+  animation: gavelFloatSlow 22s ease-in-out infinite;
+}
+
+.animate-stamp-subtle {
+  animation: stampPulse 14s ease-in-out infinite;
+}
+
+/* Subtle progressive reveal animations */
+@keyframes fadeInSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-reveal {
+  animation: fadeInSlideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes pulseSubtle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 1.8s ease-in-out infinite;
+}
+
+@keyframes scanningLineSweep {
+  0% { top: 0%; opacity: 0.3; }
+  50% { top: 85%; opacity: 0.9; }
+  100% { top: 0%; opacity: 0.3; }
+}
+
+.scanning-hairline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1.5px;
+  background: var(--color-crimson);
+  box-shadow: 0 0 8px rgba(184, 50, 59, 0.6);
+  animation: scanningLineSweep 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-reveal,
+  .animate-legal-drift,
+  .animate-gavel-drift,
+  .animate-stamp-subtle {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+  .animate-pulse-subtle {
+    animation: none;
+  }
+  .scanning-hairline {
+    animation: none;
+    top: 50%;
+    opacity: 0.7;
   }
 }

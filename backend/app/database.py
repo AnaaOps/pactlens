@@ -1,4 +1,4 @@
-"""SQLite persistence for scans, findings, evidence, reminders."""
+"""SQLite persistence for scans, findings, evidence, reminders, clause corpus, legal aid referrals, and fairness certs."""
 
 from __future__ import annotations
 
@@ -15,6 +15,7 @@ from sqlalchemy import (
     DateTime,
     create_engine,
     ForeignKey,
+    text,
 )
 from sqlalchemy.orm import declarative_base, sessionmaker, relationship
 
@@ -34,6 +35,7 @@ class Scan(Base):
     scan_id = Column(String(64), unique=True, index=True, nullable=False)
     contract_name = Column(String(255), nullable=False)
     contract_type = Column(String(64), nullable=False)
+    counterparty_name = Column(String(128), default="Sharma Properties Pvt Ltd")
     status = Column(String(32), default="Watching")  # Watching | Resolved
     created_at = Column(DateTime, default=datetime.utcnow)
     risk_high = Column(Integer, default=0)
@@ -77,8 +79,65 @@ class Reminder(Base):
     scan = relationship("Scan", back_populates="reminders")
 
 
+class ClauseCorpus(Base):
+    """Anonymized, aggregated clause recurrence corpus across all users/scans."""
+    __tablename__ = "clause_corpus"
+
+    id = Column(Integer, primary_key=True, index=True)
+    clause_fingerprint = Column(String(64), index=True, nullable=False)
+    rule_id = Column(String(64), index=True, nullable=False)
+    counterparty_name = Column(String(128), index=True, nullable=False)
+    contract_type = Column(String(64), default="rental")
+    clause_title = Column(String(255))
+    clause_text_snippet = Column(Text)
+    severity = Column(String(16))
+    scan_id = Column(String(64))
+    created_at = Column(DateTime, default=datetime.utcnow)
+
+
+class LegalAidReferral(Base):
+    """Structured intake referrals dispatched to partner legal clinics / NGOs."""
+    __tablename__ = "legal_aid_referrals"
+
+    id = Column(Integer, primary_key=True, index=True)
+    ticket_id = Column(String(64), unique=True, index=True, nullable=False)
+    scan_id = Column(String(64), index=True, nullable=False)
+    clinic_id = Column(String(64), nullable=False)
+    clinic_name = Column(String(128), nullable=False)
+    claimant_name = Column(String(128), default="Anonymous Tenant / Worker")
+    claimant_contact = Column(String(128), default="Direct Intake")
+    status = Column(String(32), default="Dispatched")  # Dispatched | Under Review | Consultation Scheduled
+    notes = Column(Text)
+    docket_json = Column(Text)
+    created_at = Column(DateTime, default=datetime.utcnow)
+
+
+class FairnessCertification(Base):
+    """Two-sided landlord / platform verified fair badges and audit records."""
+    __tablename__ = "fairness_certifications"
+
+    id = Column(Integer, primary_key=True, index=True)
+    badge_id = Column(String(64), unique=True, index=True, nullable=False)
+    entity_name = Column(String(128), nullable=False)
+    contract_type = Column(String(64), default="rental")
+    fairness_score = Column(Integer, default=0)
+    badge_status = Column(String(32), default="PactLens Verified Fair")
+    passed_clauses = Column(Integer, default=0)
+    warn_clauses = Column(Integer, default=0)
+    failed_clauses = Column(Integer, default=0)
+    audit_report_json = Column(Text)
+    issued_at = Column(DateTime, default=datetime.utcnow)
+
+
 def init_db() -> None:
     Base.metadata.create_all(bind=engine)
+    # Ensure counterparty_name column exists in scans table for existing DBs
+    with engine.connect() as conn:
+        try:
+            conn.execute(text("ALTER TABLE scans ADD COLUMN counterparty_name VARCHAR(128) DEFAULT 'Sharma Properties Pvt Ltd'"))
+            conn.commit()
+        except Exception:
+            pass  # Column already exists
 
 
 def get_db():

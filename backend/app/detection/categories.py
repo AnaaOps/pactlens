@@ -44,6 +44,29 @@ _RULES: list[tuple[str, re.Pattern]] = [
 ]
 
 
+# MVP-facing labels (backend taxonomy stays unchanged)
+DISPLAY_CATEGORIES = {
+    "deposit_refund": "Financial",
+    "payment_rent": "Payment",
+    "commission_fees": "Payment",
+    "notice_termination": "Termination",
+    "renewal_auto_renewal": "Renewal",
+    "liability_indemnity": "Liability",
+    "dispute_arbitration": "Dispute Resolution",
+    "amendment_variation": "Commitment",
+    "term_duration": "Commitment",
+    "maintenance_repairs": "Commitment",
+    "data_privacy": "Commitment",
+    "parties": "Commitment",
+    "premises_scope": "Commitment",
+    "other": "Commitment",
+}
+
+
+def display_category(internal: str | None) -> str:
+    return DISPLAY_CATEGORIES.get(internal or "", "Commitment")
+
+
 def categorize_clause(title: str, text: str) -> str:
     blob = f"{title or ''} {text or ''}"
     for cat, pat in _RULES:
