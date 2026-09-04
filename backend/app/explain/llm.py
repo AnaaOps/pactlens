@@ -32,20 +32,55 @@ _HINDI_STUBS = {
 }
 
 
+_WHAT_WHY = {
+    "deposit_refund_extended": (
+        "Deposit refund period increased.",
+        "The new agreement may give the other party significantly more time before returning your deposit. Your money can stay tied up longer.",
+        "डिपॉजिट वापसी की अवधि बढ़ गई है।",
+        "नए समझौते में डिपॉजिट वापस करने में ज़्यादा समय लग सकता है, जिससे आपका पैसा देर तक अटका रह सकता है।",
+    ),
+    "notice_period_extended": (
+        "Notice period increased.",
+        "You may need to plan further ahead to leave the contract. A longer notice window can reduce your flexibility.",
+        "नोटिस अवधि बढ़ गई है।",
+        "अनुबंध छोड़ने के लिए आपको पहले से ज़्यादा योजना बनानी पड़ सकती है।",
+    ),
+    "auto_renewal_introduced": (
+        "Auto-renewal was introduced.",
+        "If you miss the cancellation deadline, the agreement may continue on its own. This may increase your contractual risk.",
+        "ऑटो-रिन्यूअल जोड़ा गया है।",
+        "अगर आपने तय समय से पहले नोटिस नहीं दिया, तो agreement अपने-आप आगे बढ़ सकता है।",
+    ),
+}
+
+
 def _stub_explain(finding: dict[str, Any]) -> dict[str, str]:
     reason = finding.get("reason") or "This clause changed in a way that may affect you."
     impact = (finding.get("impact") or {}).get("label") or ""
-    en = f"{reason}"
-    if impact:
-        en += f" Practical impact: {impact}."
-    en += " This is informational, not legal advice."
+    rule_id = finding.get("rule_id", "")
+    pack = _WHAT_WHY.get(rule_id)
+    ext = finding.get("extracted") or {}
+    what_en = pack[0] if pack else reason
+    if ext.get("old_days") and ext.get("new_days"):
+        what_en = f"{what_en.rstrip('.')} ({ext['old_days']} → {ext['new_days']} days)."
+    why_en = pack[1] if pack else (
+        f"{impact} This clause may increase your contractual risk." if impact
+        else "This clause may increase your contractual risk. Review the old and new wording."
+    )
+    en = f"{what_en} {why_en} Informational analysis — not legal advice."
     hi = _HINDI_STUBS.get(
-        finding.get("rule_id", ""),
+        rule_id,
         "यह खंड बदला है और आपकी शर्तों को प्रभावित कर सकता है। यह जानकारी मात्र है, कानूनी सलाह नहीं।",
     )
+    if pack:
+        hi = f"{pack[2]} {pack[3]}"
     return {
         "explanation_en": en,
         "explanation_hi": hi,
+        "what_changed": what_en,
+        "why_it_matters": why_en,
+        "what_changed_hi": pack[2] if pack else "",
+        "why_it_matters_hi": pack[3] if pack else hi,
         "provider": "stub",
     }
 

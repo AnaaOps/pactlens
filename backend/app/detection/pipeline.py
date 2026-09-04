@@ -10,7 +10,7 @@ from __future__ import annotations
 from typing import Any
 
 from .segment import segment_clauses
-from .categories import categorize_clause, CATEGORIES
+from .categories import categorize_clause, CATEGORIES, display_category
 from .match import match_clauses
 from .classify import classify_risks, summarize_counts
 from .impact import compute_impacts
@@ -50,6 +50,7 @@ def run_detection(
             fd["category"] = m.category
         else:
             fd["category"] = categorize_clause(fd.get("new_title") or fd.get("old_title") or "", fd.get("new_text") or fd.get("old_text") or "")
+        fd["display_category"] = display_category(fd["category"])
 
     enriched = compute_impacts(finding_dicts, contract_type=contract_type)
     counts = summarize_counts(findings)

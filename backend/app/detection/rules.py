@@ -39,10 +39,37 @@ _MONTH = re.compile(r"(\d+)\s*months?", re.IGNORECASE)
 _MONEY = re.compile(r"₹\s*([\d,]+(?:\.\d+)?)|Rs\.?\s*([\d,]+(?:\.\d+)?)|INR\s*([\d,]+(?:\.\d+)?)", re.IGNORECASE)
 _PCT = re.compile(r"(\d+(?:\.\d+)?)\s*%")
 
+_WORD_NUMS = {
+    "zero": 0, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5,
+    "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10,
+    "eleven": 11, "twelve": 12, "thirteen": 13, "fourteen": 14, "fifteen": 15,
+    "sixteen": 16, "seventeen": 17, "eighteen": 18, "nineteen": 19,
+    "twenty": 20, "twenty-one": 21, "twenty five": 25, "twenty-five": 25,
+    "thirty": 30, "thirty-one": 31, "thirty-five": 35, "forty": 40,
+    "forty-five": 45, "forty five": 45, "fifty": 50, "sixty": 60,
+    "seventy": 70, "eighty": 80, "ninety": 90, "one hundred": 100,
+}
+_WORD_DAY_RE = re.compile(
+    r"\b(" + "|".join(re.escape(k) for k in sorted(_WORD_NUMS.keys(), key=len, reverse=True)) + r")\s*(?:calendar\s+)?(?:working\s+)?days?\b",
+    re.IGNORECASE,
+)
+_WORD_MONTH_RE = re.compile(
+    r"\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)\s*months?\b",
+    re.IGNORECASE,
+)
+
 
 def _days(text: str) -> list[int]:
     vals = [int(m.group(1)) for m in _DAY.finditer(text or "")]
     vals += [int(m.group(1)) * 30 for m in _MONTH.finditer(text or "")]
+    for m in _WORD_DAY_RE.finditer(text or ""):
+        word = m.group(1).lower().replace("  ", " ")
+        if word in _WORD_NUMS:
+            vals.append(_WORD_NUMS[word])
+    for m in _WORD_MONTH_RE.finditer(text or ""):
+        word = m.group(1).lower()
+        if word in _WORD_NUMS:
+            vals.append(_WORD_NUMS[word] * 30)
     return vals
 
 
@@ -147,13 +174,13 @@ def rule_deposit_refund(match: dict) -> Optional[RiskFinding]:
         return _base(
             match, "deposit_refund_extended", "Deposit refund timeline extended", sev,
             f"Security deposit refund period extended from {od} days to {nd} days.",
-            {"old_days": od, "new_days": nd, "delta_days": nd - od},
+            {"old_days": od, "new_days": nd, "delta_days": nd - od, "numeric_changes": {"old": od, "new": nd}},
         )
     if match["status"] == "added" and nd:
         return _base(
             match, "deposit_refund_extended", "Deposit refund timeline set unfavourably", "Medium",
             f"New deposit refund timeline of {nd} days introduced.",
-            {"new_days": nd},
+            {"new_days": nd, "numeric_changes": {"old": None, "new": nd}},
         )
     return None
 
@@ -172,7 +199,8 @@ def rule_notice_period(match: dict) -> Optional[RiskFinding]:
         return None
     od, nd = _first_day(old), _first_day(new)
     if od and nd and nd > od:
-        sev = "High" if (nd - od) >= 30 else "Medium"
+        # 30 → 60 is Medium; jump of 60+ days is High
+        sev = "High" if (nd - od) >= 60 else "Medium"
         return _base(
             match, "notice_period_extended", "Notice period extended", sev,
             f"Notice / lock-in related period extended from {od} to {nd} days.",
@@ -196,6 +224,17 @@ def rule_payment_reduced(match: dict) -> Optional[RiskFinding]:
             match, "payment_commission_reduced", "Payment / commission reduced", "High",
             f"Commission or share reduced from {op}% to {np_}%.",
             {"old_pct": op, "new_pct": np_, "delta_pct": round(op - np_, 2)},
+        )
+    if (
+        re.search(r"commission|platform\s+fee|service\s+fee", blob)
+        and op is not None
+        and np_ is not None
+        and np_ > op
+    ):
+        return _base(
+            match, "fee_increased", "Platform / service fee increased", "High",
+            f"Fee or commission charged to you increased from {op}% to {np_}%.",
+            {"old_pct": op, "new_pct": np_, "delta_pct": round(np_ - op, 2)},
         )
     om, nm = _first_money(old), _first_money(new)
     if om is not None and nm is not None and nm < om:

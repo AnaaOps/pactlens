@@ -1,0 +1,111 @@
+{
+  "schema": "pactlens.legal_aid_handoff.v2",
+  "intake_docket_id": "DOCKET-C669E300",
+  "generated_at": "2026-09-04T16:22:49.561056+00:00",
+  "case_type": "Rental Dispute — Statutory Breach & Unfair Terms",
+  "disclaimer": "Evidentiary case brief prepared by PactLens for Legal Aid / Tenant Rights Clinics. Includes SHA-256 verification hashes.",
+  "contract": {
+    "name": "RENTAL Agreement Comparison",
+    "type": "rental",
+    "scan_id": "PL-8AC9BA1FAB4C",
+    "counterparty": "Sharma Properties Pvt Ltd"
+  },
+  "evidence": {
+    "certificate_id": "CERT-BSA63-74D5EE75",
+    "old_sha256": "aaf19f5c5f4c05c3bef0d5f975f46edabb27b76ece65444ddad40cdc654b5998",
+    "new_sha256": "bf08d644fc766f27ead900792d92302d8aea6dbea2b7f5ceef1c7da02cf8e489",
+    "combined_sha256": "adc9338626d6667f7dc891ba664853a604efb82ac7e9d6459d4324ee521b7d42",
+    "admissibility": "Section 63 BSA / Sec 65B IEA Certified"
+  },
+  "risk_counts": {
+    "High": 1,
+    "Medium": 3,
+    "Low": 0
+  },
+  "statutory_violations": [
+    {
+      "clause": "Deposit refund timeline extended",
+      "broken_statute": "Model Tenancy Act, 2021 — Section 11(1) & (2)",
+      "statutory_reference": "Model Tenancy Act, 2021, Section 11: Security deposit for residential premises shall not exceed two months' rent and must be refunded to the tenant within one month of vacating after agreed deductions.",
+      "violation_type": "Direct Statutory Breach / Unfair Contract Term",
+      "severity": "High",
+      "impact": "extends your obligation / wait by 60 days",
+      "remedy": "Re: Objection to Unlawful Extension of Security Deposit Refund Window\n\nDear Landlord,\n\nI am in receipt of the revised Tenancy Agreement. Clause 5 seeks to extend the refund timeline for my security deposit to 90 days.\n\nPlease note that under Section 11 of the Model Tenancy Act, 2021, the statutory deadline for refunding the security deposit after vacant possession is strictly 30 days (one month). Furthermore, imposing an unreasonable 90-day retention constitutes an 'Unfair Contract' under Section 2(46) of the Consumer Protection Act, 2019.\n\nI request you to amend this clause back to the statutory limit of 30 days prior to execution. Failing this, I reserve the right to report this deviation to the jurisdictional Rent Authority under Section 30 of the Model Tenancy Act.\n\nYours sincerely,\n[Tenant Name]",
+      "forum": "Rent Authority / Rent Court under Section 30 of the Model Tenancy Act, 2021 (or District Consumer Disputes Redressal Commission)"
+    },
+    {
+      "clause": "Arbitration clause introduced",
+      "broken_statute": "Indian Contract Act, 1872 — Section 28 & Arbitration and Conciliation Act, 1996",
+      "statutory_reference": "Indian Contract Act, 1872, Section 28: Agreements in restraint of legal proceedings are void. The Supreme Court in Vidya Drolia (2020) affirmed that landlord-tenant disputes governed by special tenancy statutes are non-arbitrable.",
+      "violation_type": "Jurisdictional Exclusion / Statutory Pre-emption",
+      "severity": "Medium",
+      "impact": "limits court options — dispute path changes",
+      "remedy": "Re: Objection to Private Arbitration Clause in Tenancy\n\nDear Landlord,\n\nClause 10 introduces mandatory private arbitration under the Arbitration and Conciliation Act, 1996. As settled by the Supreme Court of India in Vidya Drolia (2020), tenancy disputes governed by statutory rent frameworks are non-arbitrable and fall within the exclusive jurisdiction of the designated Rent Authority / Civil Courts.\n\nPlease remove the private arbitration clause and restore standard jurisdictional recourse to local courts / Rent Authorities.\n\nSincerely,\n[Tenant Name]",
+      "forum": "Jurisdictional Rent Authority / Civil Court (Private arbitration can be challenged under Section 11/16 of Arbitration Act)"
+    },
+    {
+      "clause": "Clause removed",
+      "broken_statute": "Indian Contract Act, 1872 — Section 62",
+      "statutory_reference": "Indian Contract Act, 1872, Section 62: Any deletion of mutually agreed terms requires bilateral consensus.",
+      "violation_type": "Unilateral Deletion",
+      "severity": "Medium",
+      "impact": "review recommended — numeric impact not stated in clause",
+      "remedy": "Please clarify why the clause present in our initial contract was omitted in this version.",
+      "forum": "Rent Authority / Civil Court"
+    },
+    {
+      "clause": "Notice period extended",
+      "broken_statute": "Transfer of Property Act, 1882 — Section 106 & Model Tenancy Act, 2021 — Section 21",
+      "statutory_reference": "Transfer of Property Act, 1882, Section 106 provides 15 days notice for monthly residential leases unless reasonably agreed. MTA Section 21 provides termination mechanisms on agreed terms without punitive double lock-ins.",
+      "violation_type": "Unreasonable Restriction on Mobility",
+      "severity": "Medium",
+      "impact": "extends your obligation / wait by 30 days",
+      "remedy": "Re: Revision of Notice Period to 30 Days\n\nDear Landlord,\n\nI note that the revised draft increases notice period from 30 to 60 days and adds lock-in penalties. Under Section 74 of the Indian Contract Act, 1872, liquidated damages must reflect actual reasonable loss rather than a penalty.\n\nI propose maintaining the 30-day notice period as agreed in our initial tenancy.\n\nRegards,\n[Tenant Name]",
+      "forum": "Rent Authority / Rent Court under Model Tenancy Act"
+    }
+  ],
+  "executive_summary": "Automated legal scan of contract against counterparty 'Sharma Properties Pvt Ltd' identified 4 statutory violations under Model Tenancy Act 2021, Consumer Protection Act 2019, and Indian Contract Act 1872. Recommended immediate relief involves filing a grievance before the jurisdictional Rent Authority / Consumer Commission.",
+  "recommended_forum": "Rent Authority under Section 30 of Model Tenancy Act, 2021",
+  "intake_checklist": [
+    "Identity Proof of Claimant / Tenant",
+    "Signed Baseline Agreement Copy",
+    "PactLens Cryptographic Evidentiary Certificate (Sec 63 BSA)",
+    "Bank Transaction Records of Security Deposit / Rent / Commission",
+    "Written Counter-Notice served to counterparty"
+  ],
+  "legal_context": [
+    {
+      "act": "Model Tenancy Act, 2021",
+      "provision": "Section 11(1) & Section 11(2)",
+      "summary": "Security deposit is capped at 2 months' rent for residential premises and 6 months' rent for non-residential premises. The deposit is to be refunded to the tenant upon handing over vacant possession after agreed and lawful deductions.",
+      "source_url": "https://mohua.gov.in/upload/uploadfiles/files/Model_Tenancy_Act_English.pdf",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "The Model Tenancy Act is a central model framework and applicability depends on state adoption."
+    },
+    {
+      "act": "Model Tenancy Act, 2021",
+      "provision": "Section 30 & Section 38",
+      "summary": "The Model Tenancy Act establishes a three-tier statutory adjudicatory mechanism comprising the Rent Authority, Rent Court, and Rent Tribunal for resolution of tenancy disputes, impacting civil court jurisdiction in adopting states.",
+      "source_url": "https://mohua.gov.in/upload/uploadfiles/files/Model_Tenancy_Act_English.pdf",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Jurisdiction of Rent Authorities and civil courts depends on whether your state has enacted legislation based on the Model Tenancy Act."
+    },
+    {
+      "act": "Indian Contract Act, 1872",
+      "provision": "Section 23",
+      "summary": "Section 23 addresses lawful consideration and object. An agreement whose consideration or object is forbidden by law, defeats the provisions of any law, or is regarded by court as opposed to public policy is unlawful and void.",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2187",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "Central statute applicable across all states and union territories of India."
+    },
+    {
+      "act": "Model Tenancy Act, 2021",
+      "provision": "Section 9 & Section 10",
+      "summary": "Rent revision is governed by the terms agreed in the tenancy agreement. Notice of revision must be given at least 3 months prior to the date on which revised rent becomes payable under the model framework.",
+      "source_url": "https://mohua.gov.in/upload/uploadfiles/files/Model_Tenancy_Act_English.pdf",
+      "last_verified_date": "2026-09-01",
+      "jurisdiction_note": "The Model Tenancy Act is a central model framework and applicability depends on state adoption."
+    }
+  ],
+  "legal_knowledge_base_version": "2026.09.01"
+}
